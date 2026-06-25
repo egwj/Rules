@@ -28,9 +28,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release download --repo SagerNet/sing-box --pattern "sing-box_*_linux_amd64.tar.gz" -D /tmp/sb
-          tar -xzf /tmp/sb/sing-box_*_linux_amd64.tar.gz -C /tmp/sb
-          sudo mv /tmp/sb/sing-box_*/sing-box /usr/local/bin/sing-box
+          gh release download --repo SagerNet/sing-box --pattern "*linux*amd64*.tar.gz" -D /tmp/sb
+          tar -xzf /tmp/sb/*.tar.gz -C /tmp/sb
+          sudo install -m755 "$(find /tmp/sb -name 'sing-box' -type f)" /usr/local/bin/sing-box
           for f in sing-box/source/*.json; do
             [ -f "$f" ] || continue
             name=$(basename "$f" .json)
