@@ -46,31 +46,32 @@ jobs:
           CONFIG_URL="https://raw.githubusercontent.com/${{ github.repository }}/master/.github/scripts/subconverter/config.ini"
           ESUB=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1],safe=''))" "$SUB")
           ECFG=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1],safe=''))" "$CONFIG_URL")
+          UA="clash"
 
           echo "Config URL: $CONFIG_URL"
 
           # Surge
           echo "--- Surge ---"
           curl -sS -w "\nHTTP %{http_code}\n" -o "Surge/Sub.conf" \
-            "${BASE}?target=surge&ver=4&udp=1&tfo=1&url=${ESUB}&config=${ECFG}" || true
+            "${BASE}?target=surge&ver=4&udp=1&tfo=1&url=${ESUB}&config=${ECFG}&ua=${UA}" || true
           head -3 Surge/Sub.conf 2>/dev/null || echo "(empty)"
 
           # Clash
           echo "--- Clash ---"
           curl -sS -w "\nHTTP %{http_code}\n" -o "Clash/Sub.yaml" \
-            "${BASE}?target=clash&url=${ESUB}&config=${ECFG}" || true
+            "${BASE}?target=clash&url=${ESUB}&config=${ECFG}&ua=${UA}" || true
           head -3 Clash/Sub.yaml 2>/dev/null || echo "(empty)"
 
           # Quantumult X
           echo "--- Quantumult X ---"
           curl -sS -w "\nHTTP %{http_code}\n" -o "Quantumult/X/Sub.conf" \
-            "${BASE}?target=quanx&udp=1&tfo=1&url=${ESUB}&config=${ECFG}" || true
+            "${BASE}?target=quanx&udp=1&tfo=1&url=${ESUB}&config=${ECFG}&ua=${UA}" || true
 
           # Loon
           echo "--- Loon ---"
           mkdir -p Loon
           curl -sS -w "\nHTTP %{http_code}\n" -o "Loon/Sub.conf" \
-            "${BASE}?target=loon&url=${ESUB}&config=${ECFG}" || true
+            "${BASE}?target=loon&url=${ESUB}&config=${ECFG}&ua=${UA}" || true
 
       - name: Push to private repo
         env:
