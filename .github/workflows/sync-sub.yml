@@ -25,17 +25,12 @@ jobs:
           cd /tmp/sc/subconverter && ./subconverter &
           sleep 2
 
-      - name: Serve config locally
-        run: |
-          python3 -m http.server 8080 --directory "$GITHUB_WORKSPACE" &
-          sleep 1
-
       - name: Generate configs
         env:
           SUB: ${{ secrets.SUBSCRIPTION_URL }}
         run: |
           BASE="http://127.0.0.1:25500/sub"
-          CONFIG_URL="http://127.0.0.1:8080/.github/scripts/subconverter/config.ini"
+          CONFIG_URL="https://raw.githubusercontent.com/${{ github.repository }}/master/.github/scripts/subconverter/config.ini"
           ESUB=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1],safe=''))" "$SUB")
           ECFG=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1],safe=''))" "$CONFIG_URL")
 
