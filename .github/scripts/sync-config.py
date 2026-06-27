@@ -637,7 +637,6 @@ def _empty_plat() -> dict:
         "policy_rename_map": {},
         "pg_inject_surfboard": None,
         "gist_reverse_proxy": "",
-        "extra_use": [],
     }
 
 
@@ -841,8 +840,6 @@ def parse_sync_txt() -> dict:
             left, right = left.strip(), right.strip()
             if left:
                 result.setdefault(current_platform, _empty_plat())["filter_map"][left] = right
-        elif current_section == "ExtraUse" and current_platform and current_platform != "Surge":
-            result.setdefault(current_platform, _empty_plat())["extra_use"].append(stripped)
         elif current_section == "Gist":
             if "=>" not in stripped:
                 continue
@@ -1049,7 +1046,6 @@ def _fmt_group(
     params: dict[str, str],
     proxies: list[str],
     provider_urls: dict[str, str] | None = None,
-    extra_use: list[str] | None = None,
 ) -> list[str]:
     """生成 proxy-group 的 YAML 行列表（select / smart 均输出为 select）。"""
     lines = [f'  - name: "{name}"', "    type: select"]
@@ -1068,13 +1064,12 @@ def _fmt_group(
         use_name = _match_provider(pp, provider_urls)
 
     if use_name:
-        is_area = bool(params.get("policy-regex-filter", ""))
-        use_entries = [use_name] + ([u for u in (extra_use or []) if u != use_name] if is_area else [])
-        lines += ["    use:"] + [f"      - {u}" for u in use_entries]
+        lines += ["    use:", f"      - {use_name}"]
 
     # 节点筛选（可与 use 共存，smart 类型的核心功能）
     if regex := params.get("policy-regex-filter", ""):
         lines.append(f"    filter: '{regex}'")
+
 
     # 无 use 时用静态节点列表
     if not use_name and proxies:
@@ -1117,7 +1112,6 @@ def gen_proxy_groups(
     pg_inject: dict | None,
     provider_urls: dict[str, str] | None = None,
     adblock_proxy_lines: list[str] | None = None,
-    extra_use: list[str] | None = None,
 ) -> str:
     """生成 proxy-groups 段落。
 
@@ -1180,7 +1174,7 @@ def gen_proxy_groups(
             continue
 
         out.extend(ph.flush())
-        out.extend(_fmt_group(name, g["type"], g["params"], g["proxies"], provider_urls, extra_use))
+        out.extend(_fmt_group(name, g["type"], g["params"], g["proxies"], provider_urls))
         out.append("")
 
         if pg_inject and not injected and pg_inject["anchor"] == name:
@@ -2423,8 +2417,7 @@ def _sync_clash(
     if rules_inject:
         print(f"  rules_inject: anchor={rules_inject['anchor']} | {len(rules_inject['rules'])} rules")
 
-    extra_use = clash.get("extra_use", [])
-    groups_yaml = gen_proxy_groups(group_lines, skips, pg_inject, provider_urls, adblock_proxy_lines=proxy_lines, extra_use=extra_use or None)
+    groups_yaml = gen_proxy_groups(group_lines, skips, pg_inject, provider_urls, adblock_proxy_lines=proxy_lines)
     rp_rules_yaml = gen_rules_and_providers(rule_lines, skips, url_maps, builtin_maps, rules_inject, rename_map)
 
     parts = ["# Clash\n# Date: \n# Author: @egwj"]
