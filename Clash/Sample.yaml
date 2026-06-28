@@ -1,5 +1,5 @@
 # Clash
-# Date: 2026-06-28 00:48:49
+# Date: 2026-06-28 11:43:25
 # Author: @egwj
 
 # 通用设置
@@ -692,6 +692,27 @@ rule-providers:
     url: https://testingcf.jsdelivr.net/gh/egwj/Rules@master/Clash/RuleSet/Streaming_US.yaml
     interval: 86400
 
+  Streaming_UK:
+    type: http
+    behavior: classical
+    path: ./Provider/RuleSet/Streaming_UK.yaml
+    url: https://testingcf.jsdelivr.net/gh/egwj/Rules@master/Clash/RuleSet/Streaming_UK.yaml
+    interval: 86400
+
+  Streaming_KR:
+    type: http
+    behavior: classical
+    path: ./Provider/RuleSet/Streaming_KR.yaml
+    url: https://testingcf.jsdelivr.net/gh/egwj/Rules@master/Clash/RuleSet/Streaming_KR.yaml
+    interval: 86400
+
+  Streaming_AU:
+    type: http
+    behavior: classical
+    path: ./Provider/RuleSet/Streaming_AU.yaml
+    url: https://testingcf.jsdelivr.net/gh/egwj/Rules@master/Clash/RuleSet/Streaming_AU.yaml
+    interval: 86400
+
   Streaming:
     type: http
     behavior: classical
@@ -844,6 +865,12 @@ rules:
   - RULE-SET,Streaming_JP,🇯🇵 Japan
   # >> Streaming US
   - RULE-SET,Streaming_US,🇺🇸 America
+  # >> Streaming UK
+  - RULE-SET,Streaming_UK,🇬🇧 United Kingdom
+  # >> Streaming KR
+  - RULE-SET,Streaming_KR,🇰🇷 Korea
+  # >> Streaming AU
+  - RULE-SET,Streaming_AU,🇦🇺 Australia
 
   # > Streaming
   - RULE-SET,Streaming,🎬 Streaming

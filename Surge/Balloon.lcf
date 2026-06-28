@@ -1,5 +1,5 @@
 # Loon
-# Date: 2026-06-27 23:10:38
+# Date: 2026-06-28 11:43:25
 # Author: @egwj
 
 [General]
@@ -124,6 +124,12 @@ https://raw.githubusercontent.com/egwj/Rules/master/Surge/RULE-SET/Streaming_TW.
 https://raw.githubusercontent.com/egwj/Rules/master/Surge/RULE-SET/Streaming_JP.list, policy=🇯🇵 Japan, tag=Streaming_JP, enabled=true
 # >> Streaming US
 https://raw.githubusercontent.com/egwj/Rules/master/Surge/RULE-SET/Streaming_US.list, policy=🇺🇸 America, tag=Streaming_US, enabled=true
+# >> Streaming UK
+https://raw.githubusercontent.com/egwj/Rules/master/Surge/RULE-SET/Streaming_UK.list, policy=🇬🇧 United Kingdom, tag=Streaming_UK, enabled=true
+# >> Streaming KR
+https://raw.githubusercontent.com/egwj/Rules/master/Surge/RULE-SET/Streaming_KR.list, policy=🇰🇷 Korea, tag=Streaming_KR, enabled=true
+# >> Streaming AU
+https://raw.githubusercontent.com/egwj/Rules/master/Surge/RULE-SET/Streaming_AU.list, policy=🇦🇺 Australia, tag=Streaming_AU, enabled=true
 # > Streaming
 https://raw.githubusercontent.com/egwj/Rules/master/Surge/RULE-SET/Streaming.list, policy=🎬 Streaming, tag=Streaming, enabled=true
 # > CNTV（适用于 iQIYI Intl,WeTV,Bilibili 等大陆在港台东南亚提供服务的流媒体服务）
