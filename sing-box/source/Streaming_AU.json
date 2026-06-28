@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "7plus-sevennetwork.akamaized.net",
+        "7plus.com.au",
+        "9now-livestreams.akamaized.net",
+        "9now.com.au",
+        "abc-iview-mediapackagestreams-2.akamaized.net",
+        "abc.net.au",
+        "cdn.7livecloud.io",
+        "d25m2gzplgnf0.cloudfront.net",
+        "edge.api.brightcove.com",
+        "net10-livestream-keys.play.cbsi.video",
+        "net10-livestream.play.cbsi.video",
+        "nine.com.au",
+        "npc-live-sevennetwork.akamaized.net",
+        "p-9now.akamaized.net",
+        "sbs-live-dai.akamaized.net",
+        "sbs-live.akamaized.net",
+        "sbs.com.au",
+        "sbsvoddai-vh.akamaihd.net",
+        "sbsvodns-vh.akamaihd.net",
+        "seven.demdex.net",
+        "streamcoimg-a.akamaihd.net",
+        "videocdn-sbs.akamaized.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "10play.com.au",
+        "9cdn.net",
+        "9nation.com.au",
+        "9news.com.au",
+        "9now.com.au",
+        "airspace-cdn.cbsviedo.com",
+        "au",
+        "com.au",
+        "freeviewplus.net.au",
+        "global.ssl.fastly.net",
+        "mi9.com.au",
+        "mi9cdn.com",
+        "mjh.nz",
+        "nine.com.au",
+        "nineentertainment.com.au",
+        "nineentertainmentco.com.au",
+        "ninemediaroom.com.au",
+        "ninemsn.com.au",
+        "optus.com.au",
+        "optussport.tv",
+        "sbsod.com",
+        "stan.com.au",
+        "stan.video",
+        "static9.net.au",
+        "tan.com.au",
+        "yourtv.com.au"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "stan"
+      ]
+    }
+  ]
+}
