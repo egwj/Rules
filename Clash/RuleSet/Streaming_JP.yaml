@@ -160,3 +160,14 @@ payload:
   - DOMAIN-SUFFIX,xnxx-cdn.com
   - DOMAIN-SUFFIX,txnhh.com
   - DOMAIN-KEYWORD,xnxx
+
+  # > dアニメ
+  - DOMAIN-SUFFIX,animestore.docomo.ne.jp
+  - DOMAIN-SUFFIX,docomo.ne.jp
+
+  # > Lemino
+  - DOMAIN-SUFFIX,lemino.docomo.ne.jp
+  - DOMAIN-SUFFIX,lemino.jp
+  - DOMAIN-SUFFIX,docomo.ne.jp
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,edge-hls.lemino.docomo.ne.jp
