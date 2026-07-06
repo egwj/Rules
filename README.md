@@ -41,6 +41,16 @@ Rules/
 
 ---
 
+## Clash 覆写脚本
+
+| 用途 | 地址 |
+|------|------|
+| mihomo 覆写脚本（Clash Verge / Mihomo Party 等） | `https://raw.githubusercontent.com/egwj/Rules/master/Clash/Script/Script.js` |
+
+> 该脚本用于客户端的「覆写脚本 / Script / Enhance Script」，不是 `rule-providers`，也不是 Surge 模块。
+
+---
+
 ## 模块订阅
 
 | 模块 | 订阅地址 |
