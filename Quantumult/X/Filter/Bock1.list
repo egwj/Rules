@@ -1,0 +1,249 @@
+# > 广告联盟
+DOMAIN,i.snssdk.com,Bock1
+DOMAIN,is.snssdk.com,Bock1
+DOMAIN,open.e.kuaishou.com,Bock1
+DOMAIN-SUFFIX,miaozhen.com,Bock1
+DOMAIN-KEYWORD,adservice,Bock1
+DOMAIN-KEYWORD,pglstatp-toutiao,Bock1
+DOMAIN-KEYWORD,pangolin-sdk-toutiao,Bock1
+DOMAIN-KEYWORD,pangolin.snssdk.com,Bock1
+DOMAIN-KEYWORD,video-cn.snssdk.com,Bock1
+
+# > 安全浏览限制解除
+DOMAIN,lookup.api.bsb.baidu.com,Bock1
+DOMAIN-SUFFIX,u3.ucweb.com,Bock1
+# DOMAIN-KEYWORD,safebrowsing. 会影响 Pixel VPN
+
+# > 农行防代理检测
+DOMAIN,msmp.abchina.com.cn,Bock1
+
+# > Amap
+DOMAIN,amap-aos-info-nogw.amap.com,Bock1
+DOMAIN,free-aos-cdn-image.amap.com,Bock1
+DOMAIN-SUFFIX,v.smtcdns.com,Bock1
+
+# > Apple
+DOMAIN,advertising.apple.com,Bock1
+DOMAIN,api-adservices.apple.com,Bock1
+DOMAIN,apple.comscoreresearch.com,Bock1
+DOMAIN,banners.itunes.apple.com,Bock1
+DOMAIN,iad.apple.com,Bock1
+DOMAIN,iadcontent.apple.com,Bock1
+DOMAIN,iadctest.qwapi.com,Bock1
+DOMAIN,iadmoo.apple.com,Bock1
+DOMAIN,iadworkbench.apple.com,Bock1
+DOMAIN,launch.apple.com,Bock1
+DOMAIN,qwapi.apple.com,Bock1
+DOMAIN-SUFFIX,advp.apple.com,Bock1
+DOMAIN-SUFFIX,iadsdk.apple.com,Bock1
+DOMAIN-KEYWORD,.iad-apple.com,Bock1
+
+# > Baidu
+DOMAIN,afd.baidu.com,Bock1
+DOMAIN,afdconf.baidu.com,Bock1
+DOMAIN,als.baidu.com,Bock1
+DOMAIN,bgg.baidu.com,Bock1
+DOMAIN,feed-image.baidu.com,Bock1
+DOMAIN,httpdns.baidubce.com,Bock1
+DOMAIN,lc.map.baidu.com,Bock1
+DOMAIN,mobads-logs.baidu.com,Bock1
+DOMAIN,mobads.baidu.com,Bock1
+DOMAIN-SUFFIX,pos.baidu.com,Bock1
+DOMAIN-SUFFIX,union.baidu.cn,Bock1
+DOMAIN-SUFFIX,union.baidu.com,Bock1
+IP-CIDR,180.76.76.200/32,Bock1
+
+# > Bilibili
+DOMAIN,mall.bilibili.com,Bock1
+
+# > ByteDance
+DOMAIN,ad.zijieapi.com,Bock1
+DOMAIN,lf-cdn-tos.bytescm.com,Bock1
+DOMAIN-KEYWORD,-ad-sign.byteimg.com,Bock1
+DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com,Bock1
+DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com,Bock1
+DOMAIN-KEYWORD,-fe-tos.pglstatp-toutiao.com,Bock1
+DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao,Bock1
+DOMAIN-KEYWORD,asiad.byteactivity,Bock1
+DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao,Bock1
+
+# > Caiyun Weather
+DOMAIN,ad.cyapi.cn,Bock1
+
+# > Disney+ with Hulu
+DOMAIN-SUFFIX,disneyadvertising.com,Bock1
+# DOMAIN-SUFFIX,ads.digital.disneyadvertising.com
+
+# > ChatGPT
+DOMAIN,o33249.ingest.sentry.io,Bock1
+
+# > Google
+DOMAIN,adservice.google.com,Bock1
+DOMAIN,googleads.g.doubleclick-cn.net,Bock1
+DOMAIN,googleads.g.doubleclick.net,Bock1
+DOMAIN,pagead2.googlesyndication.com,Bock1
+DOMAIN,pubads.g.doubleclick.net,Bock1
+DOMAIN,www.googleadservices.com,Bock1
+
+# > HeyTap(OPPO)
+DOMAIN,event.dc.oppomobile.com,Bock1
+DOMAIN,adx.ads.heytapmobi.com,Bock1
+DOMAIN,ibrowser.feeds.heytapmobi.com,Bock1
+DOMAIN,adsfs.heytapimage.com,Bock1
+DOMAIN,cc-algo-cn.heytapimage.com,Bock1
+DOMAIN,cc-img-cn.heytapimage.com,Bock1
+
+# > ICBC
+DOMAIN,oisc.icbc.com.cn,Bock1
+DOMAIN,pageviewp.icbc.com.cn,Bock1
+
+# > iQIYI
+DOMAIN,api.iqiyi.com,Bock1
+DOMAIN-SUFFIX,cupid.iqiyi.com,Bock1
+DOMAIN-SUFFIX,cupid.ptqy.gitv.tv,Bock1
+
+# > JD
+DOMAIN,dns.jd.com,Bock1
+DOMAIN,dsp-x.jd.com,Bock1
+DOMAIN,janapi.jd.com,Bock1
+DOMAIN,xlog.jd.com,Bock1
+IP-CIDR,101.124.19.122/32,Bock1
+IP6-CIDR,2402:db40:5100:1011::5/128,Bock1
+
+# > Keep
+DOMAIN,httpdns.calorietech.com,Bock1
+DOMAIN,hc-ssp.sm.cn,Bock1
+
+# > Meituan
+DOMAIN,al-log.d.meituan.net,Bock1
+DOMAIN,babel-statistics-android.d.meituan.net,Bock1
+DOMAIN,maplocatesdksnapshot.d.meituan.net,Bock1
+DOMAIN,metrics-picture.d.meituan.net,Bock1
+DOMAIN,route-stats.d.meituan.net,Bock1
+
+# > MGTV
+DOMAIN,credits.bz.mgtv.com,Bock1
+DOMAIN,credits2.bz.mgtv.com,Bock1
+DOMAIN,credits3.bz.mgtv.com,Bock1
+DOMAIN,dflow.bz.mgtv.com,Bock1
+DOMAIN,encounter.bz.mgtv.com,Bock1
+DOMAIN,floor.bz.mgtv.com,Bock1
+DOMAIN,layer.bz.mgtv.com,Bock1
+DOMAIN,mob.bz.mgtv.com,Bock1
+DOMAIN,rc-topic-api.bz.mgtv.com,Bock1
+DOMAIN,rprain.bz.mgtv.com,Bock1
+DOMAIN,rprain.log.mgtv.com,Bock1
+DOMAIN,vip.bz.mgtv.com,Bock1
+DOMAIN-SUFFIX,da.mgtv.com,Bock1
+
+# > NetEase
+DOMAIN,adx-bj.anythinktech.com,Bock1
+DOMAIN,api.anythinktech.com,Bock1
+DOMAIN,da.anythinktech.com,Bock1
+DOMAIN,httpdns.music.163.com,Bock1
+DOMAIN,httpdns.n.netease.com,Bock1
+DOMAIN,iad.g.163.com,Bock1
+DOMAIN,iadmat.nosdn.127.net,Bock1
+DOMAIN,iadmatapk.nosdn.127.net,Bock1
+DOMAIN,iadmusicmat.music.126.net,Bock1
+DOMAIN,iadmusicmatvideo.music.126.net,Bock1
+DOMAIN,nex.163.com,Bock1
+DOMAIN,tk.anythinktech.com,Bock1
+DOMAIN-SUFFIX,163jiasu.com,Bock1
+
+# > Outlook
+DOMAIN,acdn.adnxs.com,Bock1
+DOMAIN,mediation.adnxs.com,Bock1
+DOMAIN,sin3-ib.adnxs.com,Bock1
+
+# > PeacockTV
+DOMAIN,video-ads-module.ad-tech.nbcuni.com,Bock1
+
+# > SMZDM
+DOMAIN,api.zuihuimai.com,Bock1
+
+# > Tencent
+DOMAIN-KEYWORD,adstats,Bock1
+DOMAIN,adcdn.tencentmusic.com,Bock1
+DOMAIN,adclick.tencentmusic.com,Bock1
+DOMAIN,adexpo.tencentmusic.com,Bock1
+DOMAIN,adsmind.gdtimg.com,Bock1
+DOMAIN,adstats.tencentmusic.com,Bock1
+DOMAIN,ad.tencentmusic.com,Bock1
+DOMAIN,btrace.qq.com,Bock1
+DOMAIN,btrace.video.qq.com,Bock1
+DOMAIN,info4.video.qq.com,Bock1
+DOMAIN,info6.video.qq.com,Bock1
+DOMAIN,ios.video.mpush.qq.com,Bock1
+DOMAIN,mtrace.qq.com,Bock1
+DOMAIN,monitor.music.qq.com,Bock1
+DOMAIN,p.l.qq.com,Bock1
+DOMAIN,pgdt.gtimg.cn,Bock1
+DOMAIN,wxsmsdy.video.qq.com,Bock1
+DOMAIN,wxsnsdy.wxs.qq.com,Bock1
+DOMAIN,wxsnsdythumb.wxs.qq.com,Bock1
+DOMAIN-SUFFIX,beacon.qq.com,Bock1
+DOMAIN-SUFFIX,gdt.qq.com,Bock1
+DOMAIN-SUFFIX,imtmp.net,Bock1
+DOMAIN-SUFFIX,tpns.qq.com,Bock1
+DOMAIN-SUFFIX,trace.qq.com,Bock1
+
+# > TVB
+DOMAIN,adstvb.akamaized.net,Bock1
+
+# > TVer
+DOMAIN,fod-cm-ad-v.webcdn.stream.ne.jp,Bock1
+
+# > Viu
+DOMAIN-SUFFIX,adcolony.com,Bock1
+DOMAIN,r2---sn-j5o76n7e.gvt1.com,Bock1
+
+# > WeChat
+DOMAIN,badjs.weixinbridge.com,Bock1
+
+# > Weibo
+DOMAIN,huodong.weibo.cn,Bock1
+DOMAIN-SUFFIX,biz.weibo.com,Bock1
+IP-CIDR,39.97.130.51/32,Bock1
+IP-CIDR,39.97.128.148/32,Bock1
+
+# > WeTV
+DOMAIN,btrace.wetvinfo.com,Bock1
+DOMAIN,mtrace.wetvinfo.com,Bock1
+
+# > Xiaomi
+DOMAIN,sdkconfig.ad.xiaomi.com,Bock1
+
+# > Youku
+DOMAIN,adsmind.ugdtimg.com,Bock1
+DOMAIN,huichuan-mc.sm.cn,Bock1
+DOMAIN,amdc.m.youku.com,Bock1
+DOMAIN,apiv4-iyes.youku.com,Bock1
+DOMAIN,huichuan.sm.cn,Bock1
+DOMAIN,iyes.youku.com,Bock1
+DOMAIN,mc.atm.youku.com,Bock1
+DOMAIN,yk-ssp.ad.youku.com,Bock1
+DOMAIN,ykad-data.youku.com,Bock1
+DOMAIN,m-vali.cp31.ott.cibntv.net,Bock1
+DOMAIN,vali-g1.cp31.ott.cibntv.net,Bock1
+DOMAIN,vali-ugc.cp31.ott.cibntv.net,Bock1
+
+# > Zhihu
+DOMAIN,appcloud2.in.zhihu.com,Bock1
+DOMAIN,appcloud.zhihu.com,Bock1
+DOMAIN,crash2.zhihu.com,Bock1
+DOMAIN,mqtt.zhihu.com,Bock1
+DOMAIN,sugar.zhihu.com,Bock1
+DOMAIN,zxid-m.mobileservice.cn,Bock1
+IP-CIDR,103.41.167.237/32,Bock1
+IP-CIDR,118.89.204.198/32,Bock1
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,Bock1
+
+# > 10000
+DOMAIN,ad.21cn.com,Bock1
+DOMAIN,ad.k.21cn.com,Bock1
+DOMAIN,admarket.21cn.com,Bock1
+DOMAIN,adshows.21cn.com,Bock1
+
+# > 10010
+DOMAIN-SUFFIX,m1.ad.10010.com,Bock1

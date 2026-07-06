@@ -42,7 +42,7 @@ DOMAIN-SUFFIX,hnext.jp
 # > DMM
 DOMAIN-SUFFIX,akabeesoft2.com
 DOMAIN-SUFFIX,akabeesoft3.com
-OMAIN-SUFFIX,akatsukiworks.com
+DOMAIN-SUFFIX,akatsukiworks.com
 DOMAIN-SUFFIX,alicesoft.com
 DOMAIN-SUFFIX,api-p.videomarket.jp
 DOMAIN-SUFFIX,bluekai.com
@@ -70,8 +70,6 @@ DOMAIN-SUFFIX,tenco.cc
 DOMAIN-SUFFIX,wheel-soft.com
 IP-CIDR,125.6.189.7/32,no-resolve
 IP-CIDR,203.104.209.7/32,no-resolve
-
-
 
 # > Niconico
 DOMAIN-SUFFIX,dmc.nico
@@ -164,3 +162,14 @@ DOMAIN-SUFFIX,xncd0f6edc4c2e69e1d4bdc89b0a8490ce32c70ef2.com
 DOMAIN-SUFFIX,xnxx-cdn.com
 DOMAIN-SUFFIX,txnhh.com
 DOMAIN-KEYWORD,xnxx
+
+# > dアニメ
+DOMAIN-SUFFIX,animestore.docomo.ne.jp
+DOMAIN-SUFFIX,docomo.ne.jp
+
+# > Lemino
+DOMAIN-SUFFIX,lemino.docomo.ne.jp
+DOMAIN-SUFFIX,lemino.jp
+DOMAIN-SUFFIX,docomo.ne.jp
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,edge-hls.lemino.docomo.ne.jp

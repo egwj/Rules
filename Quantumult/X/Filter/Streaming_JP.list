@@ -42,7 +42,7 @@ DOMAIN-SUFFIX,hnext.jp,Streaming_JP
 # > DMM
 DOMAIN-SUFFIX,akabeesoft2.com,Streaming_JP
 DOMAIN-SUFFIX,akabeesoft3.com,Streaming_JP
-OMAIN-SUFFIX,akatsukiworks.com,Streaming_JP
+DOMAIN-SUFFIX,akatsukiworks.com,Streaming_JP
 DOMAIN-SUFFIX,alicesoft.com,Streaming_JP
 DOMAIN-SUFFIX,api-p.videomarket.jp,Streaming_JP
 DOMAIN-SUFFIX,bluekai.com,Streaming_JP
@@ -162,3 +162,14 @@ DOMAIN-SUFFIX,xncd0f6edc4c2e69e1d4bdc89b0a8490ce32c70ef2.com,Streaming_JP
 DOMAIN-SUFFIX,xnxx-cdn.com,Streaming_JP
 DOMAIN-SUFFIX,txnhh.com,Streaming_JP
 DOMAIN-KEYWORD,xnxx,Streaming_JP
+
+# > dアニメ
+DOMAIN-SUFFIX,animestore.docomo.ne.jp,Streaming_JP
+DOMAIN-SUFFIX,docomo.ne.jp,Streaming_JP
+
+# > Lemino
+DOMAIN-SUFFIX,lemino.docomo.ne.jp,Streaming_JP
+DOMAIN-SUFFIX,lemino.jp,Streaming_JP
+DOMAIN-SUFFIX,docomo.ne.jp,Streaming_JP
+DOMAIN-SUFFIX,akamaized.net,Streaming_JP
+DOMAIN-SUFFIX,edge-hls.lemino.docomo.ne.jp,Streaming_JP
