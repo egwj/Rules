@@ -1,5 +1,5 @@
 # Clash
-# Date: 2026-06-29 17:55:29
+# Date: 2026-07-12 02:05:16
 # Author: @egwj
 
 # 通用设置
@@ -613,40 +613,12 @@ proxy-groups:
       - Server
     filter: '🇵🇭|PH|Philippines|菲律宾'
 
-  - name: "🇲🇾 Malaysia"
-    type: select
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Malaysia.png
-    use:
-      - Server
-    filter: '🇲🇾|MY|Malaysia|马来西亚'
-
-  - name: "🇹🇭 Thailand"
-    type: select
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Thailand.png
-    use:
-      - Server
-    filter: '🇹🇭|TH|Thailand|泰国'
-
   - name: "🇧🇷 Brazil"
     type: select
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Brazil.png
     use:
       - Server
     filter: '🇧🇷|BR|Brazil|Brasil|巴西'
-
-  - name: "🇦🇷 Argentina"
-    type: select
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Argentina.png
-    use:
-      - Server
-    filter: '🇦🇷|AR|Argentina|阿根廷'
-
-  - name: "🇨🇱 Chile"
-    type: select
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/LA_Map.png
-    use:
-      - Server
-    filter: '🇨🇱|CL|Chile|智利'
 
   # icon: https:
   # include-all: true
