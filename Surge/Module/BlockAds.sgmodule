@@ -1,10 +1,10 @@
 #!name=LoonKissSurge 合集
 #!desc=自动聚合，每日更新
 #!category=去广告
-#!date=2026-07-24 01:07:45
+#!date=2026-07-25 01:18:09
 
 [MITM]
-hostname = %APPEND% *.amap.com, *.iqiyi.com, *.weibo.cn, *.weibo.com, *.zhihu.com, -i.vip.iqiyi.com, 114.115.217.129, 119.29.29.*, a.line.me, acs.m.goofish.com, acs.m.taobao.com, ad.12306.cn, ad.line-scdn.net, afd.baidu.com, api-app.dc-cn.cn.ecouser.net, api.coolapk.com, api.gotokeep.com, api.m.jd.com, api.pinduoduo.com, api.xiachufang.com, api.xiaoheihe.cn, api.zuihuimai.com, api5-normal-m.amemv.com, app-api.smzdm.com, app.dewu.com, appconf.mail.163.com, article-api.smzdm.com, aweme.snssdk.com, bd-api.kuwo.cn, businessapi.ksedt.com, buy.line.me, ccsp-egmas.sf-express.com, ci.xiaohongshu.com, cix.line-apps.com, cn-acs.m.cainiao.com, color.jddj.com, crs-event.line.me, d.line-scdn.net, damang.api.mgtv.com, dashi.163.com, dat.ruanmei.com, dc?.bz.mgtv.com, e*.caixin.com, e2e-mtop.cainiao.com, ec-bot-obs.line-scdn.net, ecom.map.baidu.com, edith.xiaohongshu.com, fcard.api.moji.com, g*.caixin.com, g-acs.m.goofish.com, gl-cn-api.ecovacs.cn, gql-fed.reddit.com, gql.reddit.com, gslbali.ximalaya.com, gw.line.naver.jp, h5.smzdm.com, haojia-api.smzdm.com, haojia-cdn.smzdm.com, haojia.m.smzdm.com, hb-boom.api.mgtv.com, home.umetrip.com, homepage-api.smzdm.com, lan.line.me, legy.line-apps.com, longquan-mtop.cainiao.com, m*.caixin.com, m.baidu.com, m.ximalaya.com, maicai.api.ddxq.mobi, mall.meituan.com, manga.bilibili.com, me.bz.mgtv.com, mme.api.moji.com, mobile-thor.api.mgtv.com, mobile.12306.cn, mobile.api.hunantv.com, mobile.api.mgtv.com, mobile.ximalaya.com, mobilehera.ximalaya.com, mobileso.bz.mgtv.com, mobwsa.ximalaya.com, mp.weixin.qq.com, mwsa.ximalaya.com, napi.ithome.com, nbcps-mtop.cainiao.com, nelo2-col.linecorp.com, netflow-mtop.cainiao.com, newclient.map.baidu.com, obs.line-scdn.net, p.kuaidi100.com, pan.baidu.com, portal-portm.meituan.com, post.m.smzdm.com, psnlz.api.moji.com, ptf.flyertrip.com, push.m.youku.com, rec.xiaohongshu.com, s-api.smzdm.com, scdn.line-apps.com, sch.line.me, search.ximalaya.com, searchwsa.ximalaya.com, sns.api.moji.com, so.xiaohongshu.com, static.line-scdn.net, ucmp-static.sf-express.com, ucmp.sf-express.com, un-acs.youku.com, user-api.smzdm.com, user.api.ddxq.mobi, uts-front.line-apps.com, vdo.api.moji.com, w.line.me, weibo.com, www.123pan.com, www.baidu.com, www.flyert.com.cn, www.xiaohongshu.com, yongche.baidu.com
+hostname = %APPEND% *.amap.com, *.iqiyi.com, *.weibo.cn, *.weibo.com, *.zhihu.com, -i.vip.iqiyi.com, 114.115.217.129, 119.29.29.*, a.line.me, acs.m.goofish.com, acs.m.taobao.com, ad.12306.cn, ad.line-scdn.net, afd.baidu.com, api-app.dc-cn.cn.ecouser.net, api.alipan.com, api.coolapk.com, api.gotokeep.com, api.m.jd.com, api.pinduoduo.com, api.xiachufang.com, api.xiaoheihe.cn, api.zuihuimai.com, api5-normal-m.amemv.com, app-api.smzdm.com, app.dewu.com, appconf.mail.163.com, article-api.smzdm.com, aweme.snssdk.com, bd-api.kuwo.cn, bizapi.alipan.com, businessapi.ksedt.com, buy.line.me, ccsp-egmas.sf-express.com, ci.xiaohongshu.com, cix.line-apps.com, cn-acs.m.cainiao.com, color.jddj.com, crs-event.line.me, d.line-scdn.net, damang.api.mgtv.com, dashi.163.com, dat.ruanmei.com, dc?.bz.mgtv.com, dict.youdao.com, e*.caixin.com, e2e-mtop.cainiao.com, ec-bot-obs.line-scdn.net, ecom.map.baidu.com, edith.xiaohongshu.com, fcard.api.moji.com, g*.caixin.com, g-acs.m.goofish.com, gl-cn-api.ecovacs.cn, gorgon.youdao.com, gql-fed.reddit.com, gql.reddit.com, gslbali.ximalaya.com, gw.line.naver.jp, h5.smzdm.com, haojia-api.smzdm.com, haojia-cdn.smzdm.com, haojia.m.smzdm.com, hb-boom.api.mgtv.com, home.umetrip.com, homepage-api.smzdm.com, lan.line.me, legy.line-apps.com, longquan-mtop.cainiao.com, m*.caixin.com, m.baidu.com, m.ximalaya.com, maicai.api.ddxq.mobi, mall.meituan.com, manga.bilibili.com, me.bz.mgtv.com, member.alipan.com, mme.api.moji.com, mobile-thor.api.mgtv.com, mobile.12306.cn, mobile.api.hunantv.com, mobile.api.mgtv.com, mobile.ximalaya.com, mobilehera.ximalaya.com, mobileso.bz.mgtv.com, mobwsa.ximalaya.com, mp.weixin.qq.com, mwsa.ximalaya.com, napi.ithome.com, nbcps-mtop.cainiao.com, nelo2-col.linecorp.com, netflow-mtop.cainiao.com, newclient.map.baidu.com, obs.line-scdn.net, p.kuaidi100.com, pan.baidu.com, portal-portm.meituan.com, post.m.smzdm.com, psnlz.api.moji.com, ptf.flyertrip.com, push.m.youku.com, rec.xiaohongshu.com, s-api.smzdm.com, scdn.line-apps.com, sch.line.me, search.ximalaya.com, searchwsa.ximalaya.com, sns.api.moji.com, so.xiaohongshu.com, static.line-scdn.net, ucmp-static.sf-express.com, ucmp.sf-express.com, un-acs.youku.com, user-api.smzdm.com, user.api.ddxq.mobi, uts-front.line-apps.com, vdo.api.moji.com, w.line.me, weibo.com, www.123pan.com, www.baidu.com, www.flyert.com.cn, www.xiaohongshu.com, yongche.baidu.com
 
 [Rule]
 # > 12306去广告 · 2025-05-13
@@ -51,6 +51,10 @@ DOMAIN,monitor.music.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,tmead.y.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,tmeadbak.y.qq.com,REJECT,extended-matching,pre-matching
 DOMAIN,tmeadquic.y.qq.com,REJECT,extended-matching,pre-matching
+
+# > 阿里云盘去广告 · 2025-05-13
+# desc = 移除首页广告横幅、弹窗和顶部奖励。
+IP-CIDR,203.107.1.1/24,REJECT,no-resolve,pre-matching
 
 # > 爱奇艺去广告 · 2025-05-13
 # desc = 移除开屏广告、焦点图广告、瀑布流广告、搜索页面广告、移除青少年弹窗，精简底栏和我的页面。
@@ -212,6 +216,11 @@ IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve,pre-matching
 ^https:\/\/api\.gotokeep\.com\/search\/v5\/hotCourse\/list$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/api\.gotokeep\.com\/search\/v4\/hotHashtag\/list$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/api\.gotokeep\.com\/search\/v4\/hotword\/list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+# > 阿里云盘去广告 · 2025-05-13
+# desc = 移除首页广告横幅、弹窗和顶部奖励。
+^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 # > 爱奇艺去广告 · 2025-05-13
 # desc = 移除开屏广告、焦点图广告、瀑布流广告、搜索页面广告、移除青少年弹窗，精简底栏和我的页面。
@@ -416,6 +425,11 @@ IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve,pre-matching
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopindependentadvertiseapi\.queryadvertise\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopitemadvertiseapi\.queryadvertise\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
+# > 网易有道词典去广告 · 2025-05-13
+# desc = 移除开屏广告、弹窗广告、横幅广告、信息流广告、旧版翻译页面广告及搜索填充词。
+^https:\/\/gorgon\.youdao\.com\/gorgon\/brand\/prefetch\.s\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/gorgon\.youdao\.com\/gorgon\/request\.s\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
 # > 网易邮箱大师去广告 · 2025-05-13
 # desc = 移除网易邮箱大师开屏广告、签到任务提醒，精简侧拉抽屉和我的页面。
 ^https:\/\/appconf\.mail\.163\.com\/mailmaster\/api\/http\/urlConfig\.do$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
@@ -541,6 +555,12 @@ IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve,pre-matching
 # desc = 过滤IT之家信息流广告和文末广告，自定义移除置顶和轮播图，自定义移除项需在插件配置。
 # hostname = napi.ithome.com, api.zuihuimai.com, dat.ruanmei.com
 IT之家去广告 = type=http-response, pattern=^https:\/\/napi\.ithome\.com\/api\/(news\/indexv2\/iphone\/\d+|topmenu\/getfeeds\?), script-path=https://kelee.one/Resource/JavaScript/IThome/IThome_remove_ads.js, requires-body=true, argument="[{{{removeAllBanners}}},{{{removePinnedArticles}}}]"
+
+# > 阿里云盘去广告 · 2025-05-13
+# desc = 移除首页广告横幅、弹窗和顶部奖励。
+# hostname = api.alipan.com, member.alipan.com, bizapi.alipan.com
+移除阿里云盘广告 = type=http-response, pattern=^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets), script-path=https://kelee.one/Resource/JavaScript/AliYunDrive/AliYunDrive_remove_ads.js, requires-body=true
+移除阿里云盘广告 = type=http-response, pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list, script-path=https://kelee.one/Resource/JavaScript/AliYunDrive/AliYunDrive_remove_ads.js, requires-body=true
 
 # > 百度网页去广告 · 2025-05-13
 # desc = 移除百度搜索移动端网页的首页广告信息流
@@ -1012,6 +1032,19 @@ http-response-jq ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopintegration
 http-response-jq ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopintegrationapi\.homeconfig\/ 'delpaths([["data","returnValue","searchShadeList"]])'
 http-response-jq ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopintegrationapi\.homeconfig\/ '.data.returnValue.topTab |= map(select(.activeImage | not)) | .data.returnValue.topTab |= map(del(.backgroundColor))'
 http-response-jq ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.life\.aristotle\.get\/ 'def filter_nodes: map(if .data.componentId? and (.data.componentId | type == "string") and (.data.componentId | (contains("tpp_banner") or . == "tpp_guess_like")) then empty else .nodes |= (if . then filter_nodes else . end) end); .data.nodes |= (if . then filter_nodes else . end)'
+
+# > 网易有道词典去广告 · 2025-05-13
+# desc = 移除开屏广告、弹窗广告、横幅广告、信息流广告、旧版翻译页面广告及搜索填充词。
+http-response-jq ^https:\/\/dict\.youdao\.com\/homepage\/toolbar\/get\? 'delpaths([["data","vipTag"]])'
+http-response-jq ^https:\/\/dict\.youdao\.com\/course\/tab\/translateTab\? 'delpaths([["data"]])'
+http-response-jq ^https:\/\/dict\.youdao\.com\/course\/tab\/home\? 'delpaths([["data","popup"]])'
+http-response-jq ^https:\/\/dict\.youdao\.com\/course\/tab\/home\? 'delpaths([["data","tab"]])'
+http-response-jq ^https:\/\/dict\.youdao\.com\/course\/tab\/home\? 'delpaths([["data","searchSuggestList"]])'
+http-response-jq ^https:\/\/dict\.youdao\.com\/course\/tab\/home\? 'delpaths([["data","newBanner"]])'
+http-response-jq ^https:\/\/dict\.youdao\.com\/course\/tab\/home\? 'delpaths([["data","icon","promotionList"]])'
+http-response-jq ^https:\/\/dict\.youdao\.com\/course\/tab\/home\? 'delpaths([["data","icon","iconList",1,"bubble"]])'
+http-response-jq ^https:\/\/dict\.youdao\.com\/course\/tab\/home\? 'delpaths([["data","icon","iconList",2,"bubble"]])'
+http-response-jq ^https:\/\/dict\.youdao\.com\/course\/tab\/home\? 'delpaths([["data","icon","iconList",8,"bubble"]])'
 
 # > 网易邮箱大师去广告 · 2025-05-13
 # desc = 移除网易邮箱大师开屏广告、签到任务提醒，精简侧拉抽屉和我的页面。
